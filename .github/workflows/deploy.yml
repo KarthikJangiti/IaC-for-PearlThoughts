@@ -21,8 +21,8 @@ jobs:
     - name: List files in root directory
       run: ls -al
 
-    - name: List files in hello-world-node-app directory
-      run: ls -al hello-world-node-app
+    - name: List files in IaC-for-PearlThoughts directory
+      run: ls -al IaC-for-PearlThoughts
 
     - name: Install dependencies
       run: npm install
