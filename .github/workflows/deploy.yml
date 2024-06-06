@@ -18,6 +18,12 @@ jobs:
       with:
         node-version: '14'
 
+    - name: List files in root directory
+      run: ls -al
+
+    - name: List files in IaC-for-PearlThoughts directory
+      run: ls -al IaC-for-PearlThoughts
+
     - name: Install dependencies
       run: npm install
 
